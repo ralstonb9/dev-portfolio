@@ -12,6 +12,7 @@
     color: slategray;
     background-size: cover;
 }
+
 .header h1 {
     display: inline-block;
     font-size: 40px;
@@ -34,17 +35,16 @@
     margin-left: 25px;
 }
 
-.container {
-    display: flex;
-    border: 20px;
-}
-
 .me {
     width: 1100px;
 }
 
 .work {
     width: 100px;
+}
+
+ul {
+list-style: none;
 }
 
 .articles {
