@@ -7,7 +7,7 @@
     display:flex;
     justify-content: space-between;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: turquoise;
+    background-color: gold;
     color: slategray;
     background-size: cover;
 }
@@ -35,22 +35,38 @@
 }
 
 .me {
-    width: 1100px;
+    display: block;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    background-color: blue;
 }
 
 .work {
     width: 100px;
 }
 
-ul {
-list-style: none;
+nav ul li {
+    display: inline-block;
+    list-style: none;
 }
 
 .articles {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding: 20px;
+    color: slategray;
+    background-color: gold;
+    margin-bottom: 20px;
+    height: 200px;
+    outline: 5px solid slategray;
+    /* outline-offset: -5px; */
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
 h2 {
