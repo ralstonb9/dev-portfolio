@@ -9,38 +9,43 @@
 </head> 
 
 <body>
-    <header class="header">
-        <h1>ralstonb9</h1>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#About-Me">About me</a>
-                </li>
-                <li>
-                    <a href="#Work">Work</a>
-                </li>
-                <li>
-                    <a href="#Contact-Me">Contact Me</a>
-                </li>
-            </ul>
-        </nav>
+    <header>
+        <section class="header nav">
+            <h1>ralstonb9</h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#About-Me">About me</a>
+                    </li>
+                    <li>
+                        <a href="#Work">Work</a>
+                    </li>
+                    <li>
+                        <a href="#Contact-Me">Contact Me</a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
     </header>
-    <img class="me" src="../dev-portfolio/assets/images/me.jpg"></img>
+    <section class="image">
+        <img class="me" src="../dev-portfolio/assets/images/me.jpg"></img>
+        <p>Checkout my portfolio</p>
+    </section>
     <main>
-        <section class="row justify-center">
-            <article id="About-Me" class="articles card-column">
+        <section>
+            <article id="About-Me" class="articles info">
                 <h2>About Me</h2>
                 <p>I be gettin money</p>
             </article>
-            <article id="Work" class="articles card-column">
+            <article id="Work" class="articles info">
                 <h2>Work</h2>
                 <section>
                     <ul>
                         <li>
-                            <a href="https://ralstonb9.github.io/horiseon-demo-site/"><img class="work" src="../dev-portfolio/assets/images/horiseon-demo.png" alt="Horiseon Demo"></a>
+                            <a href="https://ralstonb9.github.io/horiseon-demo-site/"><img class="work" src="../dev-portfolio/assets/images/horiseon-demo.png" alt="Horiseon Demo">Horiseon page</a>
                         </li>
                         <li>
-                            <a href="https://ralstonb9.github.io/prework-study-guide/"><img class="work" src="../dev-portfolio/assets/images/prework-study-guide.png" alt="Prework Study Guide"></a>
+                            <a href="https://ralstonb9.github.io/prework-study-guide/"><img class="work" src="../dev-portfolio/assets/images/prework-study-guide.png" alt="Prework Study Guide">Study Guide</a>
                         </li>
                     </ul>
                 </section>
@@ -48,13 +53,14 @@
         </section>
     </main>
 </body>
-<footer id="Contact-Me" class="contact">
+<footer id="Contact-Me">
+    <section class="footer contact">
         <ul>
             <li>
                 <a href="#">281.330.8004</a>
             </li>
             <li>
-                <a href="#">@gmail.com</a>
+                <a href="#">bootcampdev@gmail.com</a>
             </li>
             <li>
                 <a href="#">GitHub</a>
@@ -63,5 +69,6 @@
                 <a href="#">LinkedIn</a>
             </li>
         </ul>
+    </section>
 </footer>
 </html>
