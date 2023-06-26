@@ -46,10 +46,11 @@ body {
 }
 
 .work {
-    width: 100px;
+    width: 200px;
+    padding: 5px;
 }
 
-nav ul li {
+section ul li {
     display: inline-block;
     list-style: none;
 }
@@ -62,14 +63,35 @@ nav ul li {
     color: slategray;
     background-color: gold;
     margin-bottom: 20px;
-    height: 200px;
+    height: 400px;
     outline: 5px solid slategray;
-    /* outline-offset: -5px; */
-    margin-right: 20px;
-    margin-left: 20px;
+    margin-right: 5px;
+    margin-left: 5px;
 }
 
 h2 {
     text-decoration: underline;
-    font-size: large;
+    font-size: 3rem;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+footer ul li {
+    display: inline-block;
+    list-style: none;
+    align-items: center;
+    padding: 5px;
+    color: slategray;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a {
+    color: inherit;
 }
