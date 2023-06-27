@@ -52,39 +52,8 @@ nav a:hover {
     justify-content: space-between;
     align-items: center;
 }
-/* .header {
-    display:flex;
-    justify-content: space-between;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: gold;
-    color: slategray;
-    background-size: cover;
-} */
-
-/* .header h1 {
-    display: inline-block;
-    font-size: 40px;
-} */
-
-/* .header nav {
-    display: flex;
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-size: 20px;
-} */
-
-/* .header nav ul {
-    list-style: none;
-} */
-
-/* .header nav ul li {
-    display: inline-block;
-    margin-left: 25px;
-} */
 
 .me {
-    /* display: block; */
     width: 45%;
     max-width: 300px;
     margin-right: 0 auto;
@@ -101,9 +70,9 @@ body {
 }
 
 section ul li {
-    /* display: inline-block; */
+    display: inline-block;
     list-style: none;
-    /* justify-content: center; */
+    justify-content: center;
 }
 
 .articles {
@@ -135,13 +104,6 @@ p {
     margin-right: 2em;
     color: slategray;
 }
-
-/* /* footer ul li {
-    display: inline-block;
-    list-style: none;
-    padding: 5px;
-    color: slategray;
-} */
 
 .footer {
     display: inline-block;
@@ -188,6 +150,10 @@ a {
 
     .contact {
         flex-direction: column;
+    }
+
+    section ul li {
+        display: list-item;
     }
 
    
