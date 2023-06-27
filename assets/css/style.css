@@ -95,6 +95,7 @@ section ul li {
 h2 {
     text-decoration: underline;
     font-size: 3rem;
+    text-align: center;
 }
 
 p {
@@ -103,6 +104,7 @@ p {
     margin-left: 2em;
     margin-right: 2em;
     color: slategray;
+    text-align: center;
 }
 
 .footer {
