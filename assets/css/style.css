@@ -69,6 +69,13 @@ body {
     padding: 5px;
 }
 
+.cookie {
+    width: 40%;
+    max-width: 250px;
+    height: 250px;
+    padding: 5px;
+}
+
 section ul li {
     display: inline-block;
     list-style: none;
